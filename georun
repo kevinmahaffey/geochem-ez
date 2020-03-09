@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -i -v `pwd`:`pwd` -w `pwd` --entrypoint `pwd`/georun-linux java

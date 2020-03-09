@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Convergence</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style3 {color: #3399FF}
+.style2 {font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Convergence and Convergence Criterion-</p>
+<p class="style1"><img src="Line 250 pixels.jpg" alt="line" width="333" height="3" /></p>
+<p class="style2">In Geochem the calculations are solved simultaneously using  a variation of the Newton-Raphson algorithm until the sum of the concentrations  of all metal and ligand species agree with their input concentrations to within  a degree of precision selected by the user (the convergence criterion, usually  0.01%). Convergence is not reached until the  computed speciation, the ionic strength, and the conditional constants are  stable and self-consistent.</p>
+<p class="style2">There may be problems with convergence when the respective concentrations of the metals and ligands entered for each case are dramatically different than the free metal concentrations that Geochem calculates, Metal-chelate systems (e.g. Fe(III)-EDDHA) will lower the free metal concentration significantly. Similarly. one might see very low free phosphate in a solution which contains higher concentrations of Al(III). If the user knows that there are ionic components which will interact strongly to lower one or more metals or ligands, then it is suggested that <a href="../Guesses/Guesses 2.html" tabindex="12" title="Guesses" accesskey="G" target="_blank">Guesses</a> be part of the case description.</p>
+<p class="style2">There may also be problems with the inclusion of certain redox reactions where there are very low (&lt; 10^-30 mol/L) concentrations of certain species. Please be sure that both the reactant and the product are present in significant amounts. </p>
+<p class="style2">In addition, one should be careful with doing computations on <span class="style3"><a href="../Solids/Solids.html" tabindex="7" title="Mixed Solids" accesskey="s" target="_blank">Mixed Solids</a></span>. Only use this feature when there are strong indications  that the mixed solid of interest is actually present in the experimental  system.   Disallowing any simple solids that might also precipitate will often  increase the probability of successful computation. </p>
+<p class="style1"><img src="Line 250 pixels.jpg" alt="line" width="333" height="3" /></p>
+<p class="style2">See also: <a href="../Guesses/Guesses 2.html" tabindex="12" title="Guesses" accesskey="G" target="_blank">Guesses</a> for help in achieving convergence. </p>
+</body>
+</html>

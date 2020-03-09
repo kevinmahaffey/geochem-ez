@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Guesses</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style2 {font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+.style3 {color: #3399FF}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Guesses-</p>
+<p class="style1"><img src="Line 250 pixels.jpg" width="333" height="3" /></p>
+<p class="style2">There are times when the program will give an error message that says &quot; Solution did not converge&quot;. At this point the &quot;Convergence Warning&quot; dialogue box will have opened and it offers two options to correct the problem. You can make your corrections directly into the &quot;Convergence Warning&quot; dialogue box. See also, the &quot;<a href="../Convergence Criterion/Convergence and Convergence Criterion.html" tabindex="23" title="Convergence Criterion" target="_blank">Convergence Criterion</a>&quot; Help file. </p>
+<p class="style2">The <em>first option</em> is to make good guesses of the free concentrations for each of the metals and ligands. Entering good guesses is relevant when one anticipates a much lower free concentration for any of the solution components. Metal-chelate systems (e.g. Fe(III)-EDDHA) will lower the free metal concentration significantly. Similarly. one might see very low free phosphate in a solution which contains higher concentrations of Al(III). If the user knows that there are ionic components which will interact strongly to lower one or more metals or ligands, then it is suggested that &quot;Guesses&quot; be part of the case description.</p>
+<p class="style2">There may also be problems with the inclusion of certain redox reactions where there are very low (&lt; 10^-30 mol/L) concentrations of certain species. Please be sure that both the reactant and the product are present in significant amounts. </p>
+<p class="style2">In addition, one should be careful with doing computations on <span class="style3"><a href="../Solids/Solids.html" tabindex="7" title="Mixed Solids" accesskey="s" target="_blank">Mixed Solids</a></span>. Only use this feature when there are strong indications  that the mixed solid of interest is actually present in the experimental  system.   Disallowing any simple solids that might also precipitate will often  increase the probability of successful computation. </p>
+<p class="style2">To access &quot;Guesses&quot; first click on the &quot;Show <a href="../Advanced Options/Advanced Options 1.html" title="Advanced Options" target="_blank" class="style2" accesskey="A" tabindex="3">Advanced Options</a>&quot; button and then click on the &quot;Manually Edit Guesses&quot; link. This will open a &quot;<span class="style2">Guesses</span>&quot; dialog box in which the metal, salts, and ligands have been parsed into their  ionic components and their concentrations are shown. Here the user can modify the concentration of the particular metal(s) and ligand(s) to reflect their guesses. </p>
+<p class="style2">In the case below, the Al-PO4 interaction will lower the free PO4 concentration dramatically and a guess for PO4 would be in order. Simply change the concentration for PO4 to a value lower than the 0.05 mM displayed in the &quot;Guesses&quot; box, click &quot;OK&quot; and then run the case. </p>
+<p class="style2">The <em>second option</em> is to increase the number of iterations. This is a quick fix and does not address the solution chemistry issues that may be present. </p>
+<p class="style2"><img src="Guesses 2.jpg" width="1031" height="663" /></p>
+</body>
+</html>

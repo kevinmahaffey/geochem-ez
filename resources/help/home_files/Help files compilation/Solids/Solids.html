@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Solids</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.style2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; }
+.style5 {color: #3399FF}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Solids-</p>
+<p class="style1">Mixed Solids-</p>
+<p class="style1"><img src="../Redox Reactions/Line 250 pixels.jpg" width="333" height="3" /></p>
+<p class="style2"> The user has the option of having no solids considered (None Allowed), precipitation (Can Precipitate), or allowing or disallowing specific simple solid phases (Imposed Phases to follow). The last option requires that the user enters specific codes to indicate what will be allowed or disallowed. Please see the <a href="../Imposed Phases/Imposed Disallowed Phases.html" tabindex="2" title="Imposed / Disallowed Phases" accesskey="I" target="_blank">Imposed / Disallowed Phases</a><a href="../Imposed Phases/Imposed Disallowed Phases.html" tabindex="2" title="Imposed / Disallowed Phases" accesskey="I" target="_self"> </a>Help file for more on this topic.</p>
+<p class="style2">Geochem can calculate for each metal-ligand pair, up to six  soluble complexes and up to three different simple solid phases (complexes and  solids which contain no more than one component metal, one component ligand,  and H+ or OH- ions).  </p>
+<p class="style2">A solid phase may be imposed for the first iteration only. If it is found to be unstable, it will be dissolved anyway. This option is useful mainly when the user knows for sure that some solid is and will be present and will participate actively in equilibria with solution. The option is unlikely to be useful in most plant culture work, even if an added solid is present (e.g., CaCO3), because the program would form it anyway. It is more helpful in geological systems with relatively large amounts of one or more solids known to be present. </p>
+<p class="style2">On the other hand, disallowing all solids means that no solid phase will be allowed to precipitate during the calculation and this can be a useful option in nutrient culture work, where solutions are often dilute and are changed frequently.</p>
+<p class="style2"><span class="style1"><img src="../Redox Reactions/Arrowhead 50 pixel.jpg" alt="arrrow" width="50" height="11" /></span> See the Help file : &quot;Example 1 General Case.geo&quot; for an example of the &quot;can precipitate&quot; option. In this example, both complex and simple solid phase formation  are considered. </p>
+<p class="style2"><span class="style1"><img src="../Redox Reactions/Arrowhead 50 pixel.jpg" alt="arrrow" width="50" height="11" /></span> See the Help file: &quot;Example 2 Imposed Phases.geo&quot; for an example of the &quot;imposed phases to follow&quot; option. </p>
+<p class="style2"><img src="Solids.jpg" alt="solids interface" width="737" height="663" /></p>
+<p class="style2">Excerpted from the Geochem-PC version 2.0 user notes: </p>
+<p class="style2">GEOCHEM can perform computations for 'mixed  solids', i.e., solid phases that contain more than one metal, one ligand, and  either H or OH. During a single program run it can simultaneously consider up to 20 metals and 30 ligands.  For each metal-ligand pair, up to six soluble  complexes and up to three different simple solid phases (complexes and solids  which contain no more than one component metal, one component ligand, and H+  or OH- ions) can be considered.   The thermodynamic database allows for up to 50 individual metals and 99  different ligands.  </p>
+<p class="style2"><img src="Number of mixed solids in data base.jpg" alt="solids database" width="441" height="298" /></p>
+<p class="style2">See: <a href="../Metal Ligand Database/Metal Ligand Database.html" tabindex="11" title="metal / ligand database" accesskey="M" target="_blank">Metal / ligand database</a> for M and L codes shown above.</p>
+<p class="style2">The conventions followed by GEOCHEM  are best taken from the example reactions in the table below.  Each complex or simple solid formed by a  metal and a ligand is designated by three stoichiometric coefficients (e.g., 13  0 or 11-1); the first is the number of metal ions, the second is the number of  ligands, and the third is the number of protons consumed (if positive) or  released (if negative) in the formation reaction.  The table shows that GEOCHEM  'thinks' in terms of formation reactions, i.e. association reactions for  complexes and precipitation reactions for solids.  All acid-base reactions are handled via  proton exchange, and reactions that could be written as consuming OH-'s must be  written instead as hydrolysis reactions releasing H+.  All reactions must be expressed using  the  log <em>K</em> values for overall, not  stepwise, reactions.  Lastly, note that  the program is indifferent to characteristics of solid phases other than  reaction stoichiometry and solubility (see, e.g., the three Fe  oxides/hydroxides given at the end of the table).</p>
+<p class="style2"><img src="Solids Table 8 pt.jpg" alt="solids table" width="900" height="737" /></p>
+</body>
+</html>

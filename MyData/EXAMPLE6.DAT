@@ -1,0 +1,66 @@
+LINE 1. Input file for GEOCHEM-PC, v. 2.0.  A descriptive comment follows.
+This is an example file for GEOCHEM-PC, version 2.0.  It is for redox calcu-
+LINE 2. Second descriptive comment follows (80 char. max.).  
+lations for Fe(III)-Fe(II) & Mn(IV)-Mn(II), fixed pH, solids are allowed.
+LINE 3. Maximum number of iterations: usually 25 to 50
+50
+LINE 4. Convergence criterion: usually 1.0e-4
+1.0e-4
+LINE 5. Number of metals to be considered, including H+
+5
+LINE 6. Number of ligands to be considered, including OH-
+2
+LINE 7. Number of cases to be run (1 to 10)
+4
+LINE 8. 0=solids can ppt.; -1=none allowed; n=number to be imposed/disallowed
+0
+LINE 9. pH control: f = fixed pH;  c = pH is calculated by GEOCHEM
+f
+LINE 10. Redox reactions to be considered?  y = yes  n = no
+y
+LINE 11. Mixed solids to be considered?  (y or n)
+n
+LINE 12. Ionic strength to be fixed? y = fixed; n = calculated by GEOCHEM
+n
+LINE 13. Interaction output: 0=none; 1=capacities; 2=intensities; 3=both
+0
+LINE 14. Output case progress table (y or n)?
+y
+LINE 15. Output for complexes?: 0=none; 1=concentrations; 2=activities; 3=both
+0
+LINE 16. Output overall speciation table (y or n)?
+n
+LINE 17. Output primary percentage distribution of species table (y or n)?
+y
+LINE 18. Output table(s) of conditional log K's (y/n)?
+n
+LINE 19. Fixed or guessed ionic strength (mol/L):
+0.005
+LINE 20. Metals: code no., -log of free metal guess (1st case), and each case
+5 2.31 2.301 2.301 2.301 2.301 
+6 8.0 5.0 5.0 5.0 5.0 
+7 8.0 8.0 8.0 8.0 8.0 
+8 6.0 5.0 5.0 5.0 5.0 
+LINE 21. Ligands: code no., -log of free ligand guess (1st case), and each case
+3 2.31 2.301 2.301 2.301 2.301 
+LINE 22. pH for each case: measured; or guesses when pH calculated by GEOCHEM-PC
+5.0 5.0 5.0 5.0 
+LINE 23. TOTH: total H+ (mol/L); used only for calculated pH (neg. value = OH-)
+ 
+LINE 24. pCO2: -log partial CO2 pressure (0 for closed); used only with CO3
+ 
+LINE 25. pE data: -log electron activity; used only for redox calculations
+14.0 12.0 10.0 8.0
+LINE 26. pN2 data: -log partial N2 pressure; used only for redox calcs. w/ NO3-
+ 
+LINE 27. Imposed/disallowed solid phases: see manual (neg. value = disallow)
+ 
+LINE 28. Number of redox reactions to consider; used only if item 10 = 'y'
+2
+LINE 29. Redox reaction code numbers separated by a space. See manual for list.
+1 2
+LINE 30. Number of mixed solids to consider; used only if item 11 = 'y'
+ 
+LINE 31. Mixed solids code numbers: see manual for list (neg. value = disallow).
+ 
+

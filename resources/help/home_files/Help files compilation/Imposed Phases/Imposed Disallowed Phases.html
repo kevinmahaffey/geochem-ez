@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Imposed / Disallowed Phases</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 14px; }
+.style5 {color: #3399FF}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Imposed / Disallowed Phases-</p>
+<p class="style1"><img src="Line 250 pixels.jpg" alt="line" width="333" height="3" /></p>
+<p class="style2">The user has the option of having no solids considered (None Allowed), precipitation (Can Precipitate), or allowing or disallowing specific simple solid phases (Imposed Phases to follow). The last option requires that the user enters specific codes to indicate what will be allowed or disallowed. Please see the &quot;<a href="../Solids/Solids.html" tabindex="7" title="Mixed Solids" accesskey="s" target="_blank">Solids</a>&quot; Help file for more on this topic.</p>
+<p class="style2">A solid phase may be imposed for the first iteration only. If it is found to be unstable, it will be dissolved anyway. This option is useful mainly when the user knows for sure that some solid is and will be present and will participate actively in equilibria with solution. The option is unlikely to be useful in most plant culture work, even if an added solid is present (e.g., CaCO3), because the program would form it anyway. It is more helpful in geological systems with relatively large amounts of one or more solids known to be present. On the other hand, disallowing all solids means that no solid phase will be allowed to precipitate during the calculation and this can be a useful option in nutrient culture work, where solutions are often dilute and are changed frequently.</p>
+<p class="style2"><img src="../Calculating pH/Arrowhead 50 pixel.jpg" alt="arrow" width="50" height="11" /> For even more help load the file:  &quot;Example 2 Imposed Phases.geo&quot; for an example of the &quot;imposed phases to follow&quot; option. Here, the case provides an example where a simple solid  phase has been disallowed.</p>
+<p class="style2">Excerpted from the Geochem-PC Version 2.0 User Notes:</p>
+<p class="style2">GEOCHEM allows the user to impose or  disallow specific simple solid phases. Imposition of a solid, however, merely  'suggests' a likely solid phase to the program at the start of the run.  It is not possible to impose equilibrium with  an infinite quantity of a solid phase on the system.  To ensure that a given solid precipitates,  excessive concentrations of the appropriate metal and ligand should be used  during input. It is possible to specifically impose or disallow only one solid  for a given metal-ligand pair; preceding the solid number with a negative sign  tells the program that the specified solid is to be disallowed.  Moreover, disallowing one of the three  possible solids works with certain limitations.   If solid no. 1 is disallowed, GEOCHEM-PC will ignore solids no. 2 and 3  as well, as if all three had been disallowed.   If solid no. 2 is disallowed, solid no. 1 is considered, but solid no. 3  is ignored.  If solid no. 3 is  disallowed, solids 1 and 2 will be considered.   This characteristic can sometimes be utilized advantageously by  arranging the three possible solids in <em>decreasing</em> order of solubility in  the database (solid 1 is most soluble, 3 is least soluble).  Thus, by disallowing solid 2 (and thus 3),  one can 'force' the program to consider the more soluble solid phase (number 1)  if it is believed to be the more likely phase based on kinetic or other considerations.  Similarly, disallowing solid 3 permits  equilibrium to be established with solid 2.   This feature can not be utilized blindly, however, because the order of  solubility of some solid phases (e.g., Ca-phosphates of differing  stoichiometry) varies with solution composition.  </p>
+<p class="style2"><img src="../Solids/Solids.jpg" alt="Solids option" width="737" height="663" /></p>
+<p class="style2">&nbsp;</p>
+<p class="style1">&nbsp;</p>
+</body>
+</html>

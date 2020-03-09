@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Metal / Ligand Database</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.style2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; }
+.style3 {color: #FFFFFF}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">Metal / Ligand Database-</p>
+<p class="style1"><img src="../Guesses/Line 250 pixels.jpg" alt="line" width="333" height="3" /></p>
+<p class="style2">Geodat-b.lig is the default database. Advanced users can modify the database, modifying the  constants to suit a particular system, and adding more ligands to the database. Note that there are some open slots for ligands. </p>
+<p class="style2">The program utilizes this database to calculate the interactions between the various ligands and metals in the solution being considered.  The database is divided into four main sections. The first part is a list of metals and ligands along with their numerical program codes. The second part is a list of the reaction constants (log <em>K</em> values) between  particular metal-ligand pairs, allowing for simple solids (up to 3) and soluble complexes (up to 6) that would occur due their interaction. The third section is for <a href="../Redox Reactions/Redox Reactions.html" tabindex="6" title="Redox reactions" accesskey="r" target="_blank">redox reactions</a>, containing constants (log <em>K</em> values) for 29 different redox reactions. The fourth part contains information for calculating mixed solids. </p>
+<p class="style2">Here is the list of metals and ligands currently in the database,  the code number that Geochem uses to designate the particular metal or ligand, and its abbreviation in the database.</p>
+<p class="style2"><span class="style1">Metal</span>s- </p>
+<p class="style2"><img src="Line 250 pixels.jpg" alt="" width="333" height="3" /></p>
+<p class="style2">01           Ca               Calcium<br />
+  02           Mg              Magnesium<br />
+  03           Sr               Strontium<br />
+  04           K                Potassium<br />
+  05           Na              Sodium<br />
+  06           Fe  +3         Iron - ferric<br />
+  07           Fe  +2         Iron  - ferrous<br />
+  08           Mn  +2        Manganous<br />
+  09           Cu  +2        Copper - cupric<br />
+  10           Ba              Barium<br />
+  11           Cd              Cadmium<br />
+  12           Zn              Zinc<br />
+  13           Ni               Nickelous<br />
+  14           Hg  +2        Mercury (II) - mercuric<br />
+  15           Pb              Lead<br />
+  16           Co  +2        Cobalt - cobaltous<br />
+  17           Co  +3        Cobalt - cobaltic<br />
+  18           Ag               Silver<br />
+  19           Cr +3         Chromic<br />
+  20           Al                Aluminum<br />
+  21           Cs               Cesium<br />
+  22           Li                 Lithium<br />
+  23           Be               Berylium<br />
+  24           Sc               Scandium<br />
+  25           TiO              Titanium<br />
+  26           Sn  +2         Tin - stannous<br />
+  27           Sn  +4         Tin - stannic<br />
+  28           La               Lanthanum<br />
+  29           Ce               Cerium<br />
+  30           Au               Gold<br />
+  31           Th               Thorium<br />
+  32           UO2  +2      Uranium (VI) - uranyl<br />
+  33           Cu  +1         Copper - cuprous<br />
+  34           CH3Hg       monomethylmercury<br />
+  35           Rb               Rubidium<span class="style2"><br clear="all" />
+  </span>36           Me4N         tetramethylammonium<br />
+  37           UO2 +        Uranium  (V)<br />
+  38           U +4            Uranium (IV) - uranous<br />
+  39           V +3            Vanadium (III)<br />
+  40           VO  +2        Vandium (IV) - vanadyl<br />
+50           H+              Hydronium  or proton</p>
+<p class="style1">Ligands-</p>
+<p class="style1"><img src="Line 250 pixels.jpg" width="333" height="3" /></p>
+<p><span class="style2">01           CO3           Carbonate<br />
+02           SO4             Sulfate<br />
+03           Cl               Chloride<br />
+04           F                Fluoride<br />
+05           Br               Bromide<br />
+06           I                 Iodide<br />
+07           NH3            Ammonia<br />
+08           SO2           Sulfide<br />
+09           PO4           Phosphate<br />
+10           P2O7          Pyrophosphate<br />
+11           P3O10        Tripolyphosphate<br />
+12           SiO4          Silicic  acid<br />
+13           S2O3         Thiosulfate<br />
+14           CN             Cyanide<br />
+15           OAc           Acetate<br />
+16           ACAC        Acetylacetate<br />
+17           Citr            Citrate<br />
+18           Oxal            Oxalate<br />
+19           Sali            Salicylate<br />
+20           Tart            Tartrate<br />
+21           EN              Ethylenediamine<br />
+22           DIP             Dipyridyl<br />
+23           SuSal         Sulfosalicylate<br />
+24           Gly             Glycine<br />
+25           Glut           Glutamate<br />
+26           Pico           Picolinate<br />
+27           NTA           Nitrilotriacetate<br />
+28           EDTA         EthylenediamineN,N,N',N'tetraacetate<br />
+29           CDTA         trans1,2cyclohexyldiamineN,N,N',N'tetraacetate<br />
+30           CySH         Cysteine<br />
+31           DFOE         Desferriferrioxamine E  (Nocardamine)<br />
+32           Phth          Phthalate<br />
+33           Arg           Arginine<br />
+34           Orn           Ornithine<br />
+35           Lys            Lysine</span></p>
+<p><span class="style2">36           His             Histidine<br />
+37           Asp             Aspartate</span></p>
+<p class="style2">38           Ser              Serine<br />
+39           Ala             Alanine<br />
+40           Tyr              Tyrosine<br />
+41           Met             Methionine<br />
+42           Val              Valine<br />
+43           Thr              Threonine<br />
+44           Phe              Phenylalanine<br />
+45           Iso              Isoleucine<br />
+46           Leu             Leucine<br />
+47           Pro             Proline<br />
+48           B(OH)4      Borate<br />
+49           SO3            Sulfite<br />
+50           SCN           Thiocyanate<br />
+51           NH2OH      Hydroxylamine<br />
+52           MoO4          Molybdate<br />
+53           WO4          Tungstate<br />
+54           ASO4         Arsenate<br />
+55           HVO4         Vanadium  (V) - vanadate<br />
+56           SeO3          Selenite  (Se[IV])<br />
+57           NO3           Nitrate<br />
+58           DTPA         Diethylenetriaminepentaacetate<br />
+59           SeO4         Selenate  (Se[VI])<br />
+60           Malea         Maleate<br />
+61           BES             Benzylsulfonate<br />
+62           ClO4           Perchlorate<br />
+63           open             open<br />
+64           open             open<br />
+65           Form           Formate<br />
+66           FULV1       Fulvic acid ligand 1 (Sposito &amp;  Mattigod)<br />
+67           FULV2        Fulvic acid ligand 2 (Sposito &amp;  Mattigod)<br />
+68           EDDHA       Ethylenebis[2(o-hydroxyphenyl)glycine]  (also EHPG)<br />
+69           HBED         N,N'bis(2-hydroxybenzyl)ethylenediamine-N,N'-diacetate<br />
+70           HEDTA      N-2-hydroxyethyl-ethylenediamine-N,N',N'-triacetate<br />
+71           EGTA         Ethylene-bis-(oxyethylenenitrilo)-tetraacetate<br />
+72           Succ           Succinate<br />
+73           Malate        Malate<br />
+74           HEIDA       Hydroxyethyl-imino-diacetic  acid<br />
+75           EDDA         N,N-ethylene-diamine-diacetate  (N,N-EDDA)<br />
+76           DFOB         Desferri-ferrioxamine-B<br />
+77           IDA            Iminodiacetic  acid<br />
+78           FZ              Ferrozine  = PDTS = 3-(3-pyridyl)-5,6-<br />
+<span class="style3">vvvvvvvvvvvvvvvvvvv</span>bis(4-phenylsulfonate)-1,2,4 triazine<br />
+79           oPHEN        o-phenanthroline = 1,10-phenanthroline<br clear="all" />
+</p>
+<p class="style2">80           BPDS         Bathophenanthrolinedisulfonate =  4,7-diphenyl-1,10-<br />
+  <span class="style3">vvvvvvvvvvvvvvvvvv</span>phenanthrlolinedisulfonate<br />
+  81           MES           2-(N-morpholino)-ethanesulfonate</p>
+<p><span class="style2">82           Asc             Ascorbate = Vitamin C<br />
+  99           OH-            Hydroxyl                 </span>                                  <br clear="all" />
+</p>
+</body>
+</html>
