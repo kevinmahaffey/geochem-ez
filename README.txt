@@ -1,3 +1,10 @@
+This repository is designed to allow MacOS users to run GEOCHEM-EZ.
+
+To use, make sure you have Docker and java installed then run `java -jar GeoChem-EZ.jar`
+
+See below for original GEOCHEM-EZ documentation.
+
+
 /*******************************************************
 *		GEOCHEM-EZ README		       *
 *						       *
